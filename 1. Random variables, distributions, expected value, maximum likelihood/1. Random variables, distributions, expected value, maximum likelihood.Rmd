@@ -1,0 +1,22 @@
+---
+title: "1. Random variables, distributions, expected value, maximum likelihood"
+author: "Michał Maj"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    theme: united
+    number_sections: true
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.path="imgs/")
+library(tidyverse)
+```
+
+# Uogólnione modele addytywne - GAM
+
+## Pakiet gam
